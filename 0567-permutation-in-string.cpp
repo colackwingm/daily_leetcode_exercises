@@ -16,7 +16,7 @@ public:
                     valid += 1;
                 }
             }
-            while (r-l >= s1.size()) {
+            while (r - l == s1.size()) {
                 if (valid == target.size()) {
                     return true;
                 }
